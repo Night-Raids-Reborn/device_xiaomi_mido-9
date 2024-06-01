@@ -131,6 +131,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.xiaomi_mido
 
+#Dev certified
+PRODUCT_DEFAULT_DEV_CERTIFICATE := device/xiaomi/mido/configs/keys/releasekey
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
