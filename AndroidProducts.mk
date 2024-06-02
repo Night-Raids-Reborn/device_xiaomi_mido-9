@@ -15,4 +15,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_mido.mk \
-    $(LOCAL_DIR)/rr_mido.mk
+    $(LOCAL_DIR)/rr_mido.mk \
+    $(LOCAL_DIR)/aosip_mido.mk
