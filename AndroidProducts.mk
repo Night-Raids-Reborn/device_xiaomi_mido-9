@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2018 The rrOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,3 +17,15 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_mido.mk \
     $(LOCAL_DIR)/rr_mido.mk \
     $(LOCAL_DIR)/aosip_mido.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_mido-user \
+    havoc_mido-userdebug \
+    havoc_mido-eng \
+    rr_mido-user \
+    rr_mido-userdebug \
+    rr_mido-eng \
+    aosip_mido-user \
+    aosip_mido-userdebug \
+    aosip_mido-eng
+    
